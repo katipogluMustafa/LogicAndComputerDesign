@@ -47,5 +47,16 @@ A truth table for an operation is a table of combinations of the binary variable
 
 ![Truth Tables For Three Basic Logic Operations](img/img2.png)
 
-    
-    
+### Logic Gates
+
+Logic gates are electronic circuits that operate on one or more input signals to produce an output signal.   
+
+The input terminals of logic gates accept binary signals within the
+allowable range and respond at the output terminals with binary signals that fall within a specified range. 
+
+The intermediate regions between the allowed ranges in the figure are crossed only during changes from 1 to 0 or from 0 to 1. These changes are called **transitions**, and the intermediate regions are called the **transition regions**.
+
+![](img/basicGates.png)
+![](img/timingDiagram.png)
+![](img/timingDiagramWithGateDelay.png)
+
