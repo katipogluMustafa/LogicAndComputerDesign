@@ -90,6 +90,9 @@ called **embedded systems**.
 
 ## More on the Generic Computer
 
+![Generic Computer](img/img5.png)
+
+
 Modern processors such as this one are quite complex and consist of tens to hundreds of millions of transistors.
 * The processor contains four functional modules: the CPU, the FPU, the MMU, and the internal cache.
 
@@ -121,6 +124,4 @@ Modern processors such as this one are quite complex and consist of tens to hund
     * In order to control the hard drive and transfer information to and from it, a drive controller is used.  
 
 * The keyboard, graphics adapter card, and drive controller card are all attached to the I/O bus. This allows these devices to communicate through the bus interface with the CPU and other circuitry connected to the processor buses.
-
-
       
