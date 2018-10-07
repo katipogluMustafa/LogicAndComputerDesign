@@ -60,3 +60,31 @@ The intermediate regions between the allowed ranges in the figure are crossed on
 ![](img/timingDiagram.png)
 ![](img/timingDiagramWithGateDelay.png)
 
+* The NOT gate is more commonly referred to as an inverter.
+  The reason for this name is apparent from the response in the timing diagram. The output logic signal is an inverted version of input logic signal X.
+
+* In addition to its function, each gate has another very important property called **gate delay**, the length of time it takes for an input change to result in the corresponding output change.
+    * Depending on the technology used to implement the gate, the length of time may depend on which of the inputs are changing.
+    * In the simplified model introduced here, these variations are ignored and the gate delay is assumed to have a single value, t<sub>G</sub>.
+     * This value may be different for each gate type, number of inputs, and the underlying technology and circuit design of the gate. 
+
+* AND and OR gates may have more than two inputs.
+
+* An AND gate with three inputs and an OR gate with six inputs are shown.
+    * The three input AND gate responds with a logic-1 output if all three inputs are logic 1.The output is logic 0 if any input is logic 0.
+    * The six-input OR gate responds with a logic 1 if any input is logic 1; its output becomes a logic 0 only when all inputs are logic 0.
+    
+![Gates with More than Two Inputs](img/gatesWithMoreThanTwoInputs.png)
+
+### Boolean Algebra
+
+The Boolean algebra we present is an algebra dealing with variables and logic operations.
+
+The variables are designated by letters of the alphabet, and the three basic logic operations are AND, OR, and NOT (complementation).
+
+* **A Boolean expression** is an algebraic expression formed by using binary variables, the constants 0 and 1, the logic operation symbols, and parentheses.
+
+* **A Boolean function** can be described by a Boolean equation consisting of a binary variable identifying the function followed by an equals sign and a Boolean expression.
+    * Optionally, the function identifier is followed by parentheses enclosing a list of the function variables separated by commas.
+    * **A single-output Boolean function** is a mapping from each of the possible combinations of values 0 and 1 on the function variables to value 0 or 1.
+    * **A multiple-output Boolean function** is a mapping from each of the possible combinations of values 0 and 1 on the function variables to combinations of 0 and 1 on the function outputs.
